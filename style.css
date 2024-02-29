@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #22221f;
+    color: aliceblue;
+    user-select: none;
+}
+.main {
+    display: flex;
+    gap: 200px;
+}
+.left h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.gem-image {
+    width: 300px;
+}
+.gem-image:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.gem-image:active {
+    opacity: 0.7;
+    transform: scale(1.02);
+}
